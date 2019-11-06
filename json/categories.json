@@ -1,0 +1,24 @@
+{
+    "categories" : [
+        {
+            "id" : 1,
+            "slug" : "trailers",
+            "title" : "Trailers"
+        },
+        {
+            "id" : 2,
+            "slug" : "lore",
+            "title" : "Lore"
+        },
+        {
+            "id" : 3,
+            "slug" : "destiny-memes",
+            "title" : "Destiny Memes"
+        },
+        {
+            "id" : 4,
+            "slug" : "cat-memes",
+            "title" : "Cat Memes"
+        }
+    ]
+}

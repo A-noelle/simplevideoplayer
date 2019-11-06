@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Video Player</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="dist/css/style.min.css"/>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    
+    <div id='container'>
+        <section>
+            <form onsubmit="return false">
+                <input id="search-box" type="text" name="search-box" placeholder="Enter Search Term...">
+            </form>
+            <h1>Simple Video Player</h1>
+            <ul id="category-list">
+            </ul>
+            <div id='video-list'>
+            </div>
+            <iFrame id='player' title='Youtube Video Player'></iFrame>
+        </section>
+    </div>
+
+</body>
+</html>

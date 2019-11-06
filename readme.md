@@ -1,0 +1,3 @@
+# simplevideoplayer
+
+For educational purposes
