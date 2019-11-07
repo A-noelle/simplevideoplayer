@@ -1,8 +1,10 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,IAAI,AAAC,CACD,UAAU,CAAE,YAAY,CAC3B",
+    "mappings": "ACAA,AAAA,IAAI,CAAE,IAAI,CAAE,GAAG,CAAE,IAAI,CAAE,MAAM,CAAE,MAAM,CAAE,EAAE,CAAE,EAAE,CAAE,EAAE,CAAE,EAAE,CAAE,EAAE,CAAE,EAAE,CAAE,CAAC,AAAC,CAC7D,MAAM,CAAE,CAAC,CAAG,AAEhB,AAAA,IAAI,AAAC,CACD,WAAW,CAAE,CAAC,CAAG,AAErB,AAAA,EAAE,CAAE,EAAE,AAAC,CACH,UAAU,CAAE,IAAI,CAAG,ACNvB,AAAA,EAAE,CAAE,EAAE,CAAE,EAAE,CAAE,EAAE,CAAE,EAAE,CAAE,EAAE,AAAC,CACnB,WAAW,CAAE,wBAAwB,CACxC,AAED,AAAA,CAAC,AAAC,CACE,WAAW,CAAE,uBAAuB,CACvC",
     "sources": [
-        "../../scss/style.scss"
+        "../../scss/style.scss",
+        "../../scss/base/_reset.scss",
+        "../../scss/base/_typography.scss"
     ],
     "names": [],
     "file": "style.min.css"

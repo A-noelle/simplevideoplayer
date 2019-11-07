@@ -1,8 +1,10 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,IAAI,CAAC;EACD,UAAU,EAAE,YAAY;CAC3B",
+    "mappings": "ACAA,AAAA,IAAI,EAAE,IAAI,EAAE,GAAG,EAAE,IAAI,EAAE,MAAM,EAAE,MAAM,EAAE,EAAE,EAAE,EAAE,EAAE,EAAE,EAAE,EAAE,EAAE,EAAE,EAAE,EAAE,EAAE,CAAC,CAAC;EAC7D,MAAM,EAAE,CAAC;CAAG;;AAEhB,AAAA,IAAI,CAAC;EACD,WAAW,EAAE,CAAC;CAAG;;AAErB,AAAA,EAAE,EAAE,EAAE,CAAC;EACH,UAAU,EAAE,IAAI;CAAG;;ACNvB,AAAA,EAAE,EAAE,EAAE,EAAE,EAAE,EAAE,EAAE,EAAE,EAAE,EAAE,EAAE,CAAC;EACnB,WAAW,EAAE,wBAAwB;CACxC;;AAED,AAAA,CAAC,CAAC;EACE,WAAW,EAAE,uBAAuB;CACvC",
     "sources": [
-        "../scss/style.scss"
+        "../scss/style.scss",
+        "../scss/base/_reset.scss",
+        "../scss/base/_typography.scss"
     ],
     "names": [],
     "file": "style.css"
