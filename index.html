@@ -14,18 +14,38 @@
     <script src="js/main.js"></script>
 </head>
 <body>
-    
+
     <div id='container'>
-        <section>
-            <form onsubmit="return false">
-                <input id="search-box" type="text" name="search-box" placeholder="Enter Search Term...">
-            </form>
-            <h1>Simple Video Player</h1>
-            <ul id="category-list">
-            </ul>
+        <header>
+            <nav class="nav-container">
+                <div class="nav-inner">
+                    <ul class="nav-list">
+                        <h1 class="page-title">Simple Video Player</h1>
+                        <form onsubmit="return false">
+                            <input id="search-box" type="text" name="search-box" placeholder="Enter Search Term...">
+                        </form>
+                        <li class="nav list-item">
+                            <a class="screen-link" data-screen="home" href="#">Home</a>
+                        </li>
+                        <li class="nav list-item">
+                            <a class="screen-link" data-screen="about" href="#">About</a>
+                        </li>
+                    </ul>
+                    <div class="dropdown">
+                        <ul class="dropdown-content" id="category-list"></ul>
+                    </div>    
+                </div>
+            </nav>
+        </header>
+
+        <section class="screen" id="home">
             <div id='video-list'>
             </div>
             <iFrame id='player' title='Youtube Video Player'></iFrame>
+        </section>
+
+        <section class="screen" id="about">
+            <h3>About</h3>
         </section>
     </div>
 

@@ -1,3 +1,13 @@
-// base
+// base - animations, reset, typography, and utilies.
 @import "./base/reset";
 @import "./base/typography";
+
+//components - have a single scss file for each individual component /
+            //buttons, navbars, cards, anything that is reusable.
+
+//pages -  have a single scss for each specific page
+
+//layout - Header, footer, grid, navigation / container - grid system
+@import "./layout/nav";
+
+//abstracts - function, mixins, and variables

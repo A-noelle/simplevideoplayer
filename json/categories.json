@@ -1,24 +1,24 @@
 {
-    "categories" : [
+    "categories": [
         {
-            "id" : 1,
-            "slug" : "trailers",
-            "title" : "Trailers"
+            "id": 1,
+            "slug": "Trailers",
+            "title": "Trailers"
         },
         {
-            "id" : 2,
-            "slug" : "lore",
-            "title" : "Lore"
+            "id": 2,
+            "slug": "Lore",
+            "title": "Lore"
         },
         {
-            "id" : 3,
-            "slug" : "destiny-memes",
-            "title" : "Destiny Memes"
+            "id": 3,
+            "slug": "Destiny Memes",
+            "title": "Destiny Memes"
         },
         {
-            "id" : 4,
-            "slug" : "cat-memes",
-            "title" : "Cat Memes"
+            "id": 4,
+            "slug": "Cat Memes",
+            "title": "Cat Memes"
         }
     ]
 }
