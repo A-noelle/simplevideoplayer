@@ -60,7 +60,7 @@ $(document).ready(function () {
     function getVideoHtml(video) {
         return `<div class='video-item' data-id='${video.id}'>
             <div>
-            <img src='https://img.youtube.com/vi/${video.id}/default.jpg' alt='video-thumbnail'>
+            <img class='video-thumbnail' src='https://img.youtube.com/vi/${video.id}/default.jpg' alt='video-thumbnail'>
             </div>
             <div>
                 <h3>${video.title}</h3>

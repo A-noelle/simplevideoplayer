@@ -1,8 +1,22 @@
-html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p {
-    border: 0; }
-  
 body {
-    line-height: 1; }
-  
-ul, li {
-    list-style: none; }
+    background-color: rgb(189, 201, 186);
+    margin: 0;
+    border: 0;
+    line-height: 1;
+    letter-spacing: 2px;
+
+    h1 {
+        color: #ffffff;
+        text-transform: uppercase;
+    }
+
+    h2 {
+        color: #404B4D;
+    }
+
+    ul,
+    li {
+        list-style: none;
+        padding-inline-start: 0;
+    }
+}

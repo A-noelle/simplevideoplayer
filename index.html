@@ -1,47 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Video Player</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="dist/css/style.min.css"/>
-    <script
-  src="https://code.jquery.com/jquery-3.4.1.min.js"
-  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="dist/css/style.min.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+        integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
 </head>
+
 <body>
 
-    <div id='container'>
+    <div class="content-container" id='container'>
         <header>
             <nav class="nav-container">
+                <h1 class="page-title">Dank Video Player</h1>
                 <div class="nav-inner">
-                    <ul class="nav-list">
-                        <h1 class="page-title">Simple Video Player</h1>
-                        <form onsubmit="return false">
-                            <input id="search-box" type="text" name="search-box" placeholder="Enter Search Term...">
-                        </form>
+                    <ul class="nav-list main">
                         <li class="nav list-item">
                             <a class="screen-link" data-screen="home" href="#">Home</a>
                         </li>
                         <li class="nav list-item">
                             <a class="screen-link" data-screen="about" href="#">About</a>
                         </li>
+                        <div class="nav list-item dropdown">
+                            <a class="dropbtn" href="#">Categories</a>
+                            <div class="dropdown-content">
+                                <ul class="categories drop" id="category-list">
+                                </ul>
+                            </div>
+                        </div>
+                        <form class="search" onsubmit="return false">
+                            <input id="search-box" type="text" name="search-box" placeholder="Enter Search Term...">
+                        </form>
                     </ul>
-                    <div class="dropdown">
-                        <ul class="dropdown-content" id="category-list"></ul>
-                    </div>    
                 </div>
             </nav>
         </header>
 
         <section class="screen" id="home">
-            <div id='video-list'>
-            </div>
             <iFrame id='player' title='Youtube Video Player'></iFrame>
+            <div class="grid-container" id='video-list'>
+            </div>
         </section>
 
         <section class="screen" id="about">
@@ -50,4 +56,5 @@
     </div>
 
 </body>
+
 </html>

@@ -1,11 +1,34 @@
-nav {
-    ul {
-        display: flex;
-        padding: 10px;
-        align-items: center;
+header {
+
+    width: 100%;
+
+    .nav-container {
+        height: 57px;
+        background-color: #404D52;
     }
 
-    li, form, h1 {
-        padding: 0 10px 0 10px;
+    nav, form {
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px 0 20px;
+
+        .nav-inner {
+            display: flex;
+        }
+
+        .nav-list {
+            display: flex;
+            justify-content: center;
+        }
+
+        ul {
+            overflow: hidden;
+        }
+
+        a {
+            padding: 20px;
+        }
     }
 }
